@@ -1,9 +1,9 @@
-# usb-keyboard-traffic-decoder
-A Python script for decoding USB keyboard data captured in hex format. This tool maps USB HID scancodes to corresponding characters and outputs the decoded keystrokes.
-
 # USB Keyboard Decoder
 
 This repository contains a Python script designed to decode USB keyboard data captured in hexadecimal format. The script translates USB HID scancodes into human-readable keystrokes by mapping each byte to its corresponding character.
+
+## Context
+This code was written as part of the **Huntress CTF 2024** event to solve the "Keyboard Junkie" challenge.
 
 ## Features
 - Decodes USB keyboard scancodes from hex data.
